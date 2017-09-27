@@ -2,7 +2,7 @@
 HTML Internationalization for WebExtension
 
 
-The code is module so it can be used verbatim without any need for any change.
+The code is modular so it can be used verbatim without any need for any change.
 
 Example of Usage:
 
