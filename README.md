@@ -4,6 +4,9 @@ HTML Internationalization for WebExtension
 
 The code is modular so it can be used verbatim without any need for any change.
 
+If `data-i18n` does not have a `|` then the localised message will be appended to the node as TEXT.
+If `data-i18n` has a `id|attribute` then the localised message will be set to the node attribute.
+
 Example of Usage:
 
 `<p data-i18n="someText"></p>` -->  
