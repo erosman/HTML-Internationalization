@@ -9,7 +9,7 @@ The Internationalization is done by adding a `data-i18n` attribute to the elemen
 If `data-i18n` does not have a `|` then the localised message will be appended to the node as TEXT.  
 If `data-i18n` has a `id|attribute` then the localised message will be set to the node attribute.
 
-**N.B.** The Internationalization is added as TEXT as I don't belive locales should contain HTML.
+**N.B.** The Internationalization is added as TEXT as I believe locales should not contain HTML.
 
 Example of Usage:
 
