@@ -1,5 +1,5 @@
 # HTML-Internationalization
-HTML Internationalization for WebExtension
+## HTML Internationalization for WebExtensions
 
 
 The code is modular so it can be used verbatim without any need for any change. It can be used for Options pages, Browser Action pop-ups, Page Action pop-ups, Sidebar or any other HTML document.
@@ -11,7 +11,7 @@ If `data-i18n` has a `id|attribute` then the localised message will be set to th
 
 **N.B.** The Internationalization is added as TEXT as I believe locales should not contain HTML.
 
-Example of Usage:
+## Examples
 
 `<p data-i18n="someText"></p>` -->  
 `<p data-i18n="someText">someText Message</p>`
