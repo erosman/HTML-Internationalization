@@ -26,4 +26,4 @@ Just add the attribute name after `|`
 `<input type="button" data-i18n="someText|value" value="someText Message">`
 
 ### Further Developemnt
-So far, I have not come across a situation that couldn't be handled (or made to handle) by the code. Let me know of such instances and I will update the code accordingly.
+So far, I have not come across a situation that couldn't be handled (or made to be handled) by the code. Let me know of such instances and I will update the code accordingly.
