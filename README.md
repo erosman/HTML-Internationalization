@@ -4,8 +4,8 @@ The code is modular so it can be used verbatim without any need for any change. 
 
 The Internationalization is done by adding a `data-i18n` attribute to the elements.
 
-If `data-i18n` does not have a `|` then the localised message will be appended to the node as TEXT.  
-If `data-i18n` has a `id|attribute` then the localised message will be set to the node attribute.
+- If `data-i18n` does not have a `|` then the localised message will be appended to the node as TEXT.  
+- If `data-i18n` has a `id|attribute` then the localised message will be set to the node attribute.
 
 **Notes** 
 - The Internationalization is added as TEXT as I believe locales should not contain HTML
@@ -34,6 +34,17 @@ Just add the attribute name after `|`
 <a href="https://github.com/" data-i18n="someText|title" target="_blank"><span data-i18n="otherText"></span></a>
 <a href="https://github.com/" data-i18n="someText|title" title="someText" target="_blank"><span data-i18n="otherText">otherText</span></a>
 ```
+
+## HTML-Internationalization ES6 Module
+`i18n.js` is wrriten as ES6 module side-effect which simplifies its use. A process to apply internationalization to `<template>` tags was also added.
+
+### How to use
+`import` the module as side-effect
+```js
+import './i18n.js';
+```
+
+
 
 ### Further Development
 So far, I have not come across a situation that couldn't be handled (or made to be handled) by the code. Let me know of such instances and I will update the code accordingly.
